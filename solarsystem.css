@@ -1,0 +1,126 @@
+body {background-color: rgba(0, 0, 0, 0.966);}
+
+.cizgisiz{
+    line-height: 1.5em;
+    text-align: center;
+    padding-bottom: 1em;
+    word-spacing: 15px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    width: 500px;
+    text-align: center;
+    float: left;
+    margin:20px;
+    padding:20px;
+}
+.cizgi{
+    line-height: 1.5em;
+    text-align: center;
+    padding-bottom: 1em;
+    word-spacing: 15px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    width: 500px;
+    text-align: center;
+    float: left;
+    margin:20px;
+    padding:20px;
+    border-right: 1px solid blueviolet;
+    
+}
+
+.baslik {
+    text-align: center;
+    color: #FFF8E7;
+    font-size: 50px;
+    font-family: 'Roboto Mono', monospace;
+    line-height: 4em;
+}
+a {
+    text-decoration: none; /* Bağlantı altındaki çizgiyi kaldırır */
+}
+.a-fs {
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+.centerlink {
+    line-height: 1.5em;
+    text-align: center;
+    padding-bottom: 1em;
+    word-spacing: 15px;
+}
+
+
+.fs-15 {
+    color: #FFF8E7;
+    font-size: 15px;
+    font-family: 'Oswald', Courier, monospace;
+}
+
+.fs-20 {
+    color: #FFF8E7;
+    font-size: 20px;
+    font-family: 'Oswald', Courier, monospace;
+}
+
+.liste {
+    color: #FFF8E7;
+    font-size: 20px;
+    font-family: 'Oswald', Courier, monospace;
+    text-align: center;
+}
+
+.gezegenler-fs {
+    color: #FFF8E7;
+    font-size: 20px;
+    font-family: 'Oswald', Courier, monospace;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.anasayfa {
+    line-height: 1.5em;
+    text-align: center;
+    padding-bottom: 1em;
+    word-spacing: 15px;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+img {
+    max-width: 100%
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.img-gezegen {
+    display: flex;
+    grid-template-columns: auto 1fr; /* Resim genişliği kadar ilk sütun, geri kalan alan ikinci sütun */
+    align-items: center; /* İçeriği dikeyde hizala */
+    gap: 20px; /* Sütunlar arasına boşluk bırak */
+    margin: 0; /* Paragrafın varsayılan kenar boşluklarını kaldır */
+    justify-content: center;
+    flex-direction: column;
+  }
+
+p {
+    color: greenyellow;
+}
+
+.bosluklink  a {
+    margin-right: 40px; /* Sağ taraftan 20px boşluk bırak */
+  }
+
+  .split-container {
+    display: flex;
+    width: 100%; /* Sayfanın genişliğini doldur */
+  }
+  
+  .left-side,
+  .right-side {
+    flex: 1; /* Eşit genişlikte iki bölüm oluştur */
+  }
